@@ -580,6 +580,7 @@ SONIC_BUILD_INSTRUCTION :=  $(MAKE) \
                            SONIC_OS_VERSION=$(SONIC_OS_VERSION) \
                            PIP_HTTP_TIMEOUT=$(PIP_HTTP_TIMEOUT) \
                            LEGACY_SONIC_MGMT_DOCKER=$(LEGACY_SONIC_MGMT_DOCKER) \
+                           INCLUDE_OLS_UCENTRAL_CLIENT=$(INCLUDE_OLS_UCENTRAL_CLIENT) \
                            $(SONIC_OVERRIDE_BUILD_VARS)
 
 .PHONY: sonic-slave-build sonic-slave-bash init reset
